@@ -7,9 +7,7 @@ top = <<EOS
 <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
 EOS
 
-# loginid = "20000003"
 loginid = ARGV[0]
-# password = "p@ssw0rd"
 password = ARGV[1]
 
 head = <<EOS
@@ -22,9 +20,6 @@ EOS
 body_start = <<EOS
   <soapenv:Body>
 EOS
-
-# start_day = 20160201.to_s
-# end_day = 20160301.to_s
 
 start_day = ARGV[2].to_s
 end_day = ARGV[3].to_s
