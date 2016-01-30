@@ -8,10 +8,10 @@ SoapEnvelopeを出力するスクリプト
 
 料金的なあれ
 
-''' ruby setprice.rb id password startday endday price '''
+``` ruby setprice.rb id password startday endday price ```
 
 ### setstock.rb
 
 在庫的なあれ
 
-''' ruby setstock.rb id password startday endday stock '''
+``` ruby setstock.rb id password startday endday stock ```
